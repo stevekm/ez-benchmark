@@ -1,0 +1,6 @@
+.nextflow.log*
+.nextflow*
+nextflow
+*.html*
+work/*
+trace.txt*
