@@ -42,6 +42,21 @@ The output should include two files;
 - `trace.txt`: text table listing the execution metrics of each task
 - `nextflow.html`: HTML report with graphs showing the system resource usages of the tasks
 
+Some of the plots included in the `nextflow.html` should look like this;
+
+CPU usage of all tasks:
+
+![cpu](examples/cpu.png)
+
+Memory usage of all tasks:
+
+![mem](examples/mem.png)
+
+Task duration:
+
+![duration](examples/duration.png)
+
+
 # Software
 
 This template uses the [Nexflow](https://www.nextflow.io/) workflow framework, which requires `bash` and Java 8+. Docker is used in this example to ensure that all required metrics are available on systems such as macOS which lack procfs.
